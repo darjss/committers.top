@@ -621,6 +621,10 @@ var PRESETS = map[string]QueryPreset{
 		title:   "Costa Rica",
 		include: []string{"costa+rica", "san+josé", "alajuela", "cartago", "heredia", "guanacaste", "puntarenas", "limón"},
 	},
+	"mongolia": QueryPreset{
+		title:   "Mongolia",
+		include: []string{"mongolia", "монгол", "ulaanbaatar", "ulan+bator", "ulanbator", "erdenet", "darkhan", "darhan", "choibalsan", "khovd", "hovd", "nalaikh", "dalanzadgad", "arkhangai", "baganuur", "zuunmod"},
+	},
 }
 
 func Preset(name string) QueryPreset {
